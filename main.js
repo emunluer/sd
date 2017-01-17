@@ -7,14 +7,9 @@ http.createServer(function (req, res) {
   res.end(index);
 }).listen(9615);
 */
-
-
 /*
 - install nodejs and npm from apt-get
-- install git from apt-get and config
-	git config --global user.name yourname
-	git config --global user.email youremail@address.com
-
+- install git from apt-get
 
 - npm install typescript -g (make it global since this is a command line utility)
 - npm install express -g (dont do this, why do gloally , this should goto a project folder !)
@@ -25,14 +20,11 @@ http.createServer(function (req, res) {
 - do shortcut node to nodejs ( to the project foldeR so that you can launch nodejs on debug)
 
 */
-
- 
 var path = require('path');
 var express = require('express');
 var app = express();
-
 //var x = require('mongoose');
-
-let staticPath = path.join(__dirname, '/client');
+var staticPath = path.join(__dirname, '/client');
 app.use('/', express.static(staticPath));
-app.listen(3000, function() { console.log('listening')});
+app.listen(3000, function () { console.log('listening'); });
+//# sourceMappingURL=main.js.map
