@@ -12,8 +12,8 @@ http.createServer(function (req, res) {
 /*
 - install nodejs and npm from apt-get
 - install git from apt-get and config
-	git config --global user.name yourname
-	git config --global user.email youremail@address.com
+	  git config --global user.name yourname
+	  git config --global user.email youremail@address.com
 
 
 - npm install typescript -g (make it global since this is a command line utility)
