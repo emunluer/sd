@@ -9,7 +9,10 @@ http.createServer(function (req, res) {
 */
 /*
 - install nodejs and npm from apt-get
-- install git from apt-get
+- install git from apt-get and config
+    git config --global user.name yourname
+    git config --global user.email youremail@address.com
+
 
 - npm install typescript -g (make it global since this is a command line utility)
 - npm install express -g (dont do this, why do gloally , this should goto a project folder !)
@@ -20,6 +23,7 @@ http.createServer(function (req, res) {
 - do shortcut node to nodejs ( to the project foldeR so that you can launch nodejs on debug)
 
 */
+//test
 var path = require('path');
 var express = require('express');
 var app = express();
