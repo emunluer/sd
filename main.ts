@@ -12,9 +12,10 @@ http.createServer(function (req, res) {
 /*
 - install nodejs and npm from apt-get
 - install git from apt-get and config
-	  git config --global user.name yourname
-	  git config --global user.email youremail@address.com
-
+	  git config --global user.name emunluer
+	  git config --global user.email emunluer@gmail.com
+    git remote add origin https://github.com/emunluer/sd.git
+    a
 
 - npm install typescript -g (make it global since this is a command line utility)
 - npm install express -g (dont do this, why do gloally , this should goto a project folder !)
