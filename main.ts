@@ -8,7 +8,7 @@ http.createServer(function (req, res) {
 }).listen(9615);
 */
 
-
+// a
 /*
 - install nodejs and npm from apt-get
 - install git from apt-get and config
@@ -20,11 +20,11 @@ http.createServer(function (req, res) {
 - npm install typescript -g (make it global since this is a command line utility)
 - npm install express -g (dont do this, why do gloally , this should goto a project folder !)
 - create project folder
-- do npm init ( which will create package.json)
+- do npm init ( which will create  package.json)
 - npm install express --save (so that it goes to package.json dependencies)
 - npm install @types/node --save
 - do shortcut node to nodejs ( to the project foldeR so that you can launch nodejs on debug)
-
+ 
 */
 
 
