@@ -15,7 +15,7 @@ http.createServer(function (req, res) {
 	  git config --global user.name emunluer
 	  git config --global user.email emunluer@gmail.com
     git remote add origin https://github.com/emunluer/sd.git
-
+   sds
 - npm install typescript -g (make it global since this is a command line utility)
 - npm install express -g (dont do this, why do gloally , this should goto a project folder !)
 - create project folder
