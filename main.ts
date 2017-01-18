@@ -8,7 +8,7 @@ http.createServer(function (req, res) {
 }).listen(9615);
 */
 
-// a
+//
 /*
 - install nodejs and npm from apt-get
 - install git from apt-get and config
